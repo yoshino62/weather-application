@@ -17,29 +17,57 @@
     <div class="container">
 
         <header>
-            <input type="search" placeholder="Search for a city" />
-            <input type="submit" value="Search" />
+            <form class="search-form">
+                <input type="search" placeholder="Search for a city" class="search-form-bar" required />
+                <input type="submit" value="Search" class="search-form-button" />
+            </form>
         </header>
 
         <main>
 
-            <h1>
-                Tokyo Sunday | 12:29
+            <h1 class="current-location-time">
+                <span class="currrent-city">Tokyo</span> <span class="current-time">12:29 | Sunday</span>
             </h1>
-            <div>
-                <p>16 °c | °F</p>
 
-                <p>
-                    High / Low : 22°C / 15°C
-                    <br />
-                    Humidity : 57%
-                    <br />
-                    Wind : 4 mph
-                </p>
-            </div>
+            <div class="weather-data">
+                <div class="weather-details">
+                    <p>
+                        <span class="current-temperature">16</span>
+                        <span class="current-temperature-unit-metric">
+                            °C |
+                        </span>
 
-            <div>
-                ☀️ Clear
+                        <span class="current-temperature-unit-imperial">
+                            <a href="#">°F</a>
+                        </span>
+                    </p>
+
+                    <p class="weather-info-details">
+                        ↑↓ High / Low : <span class="weather-info">22°C / 15°C</span>
+                        <br />
+
+                        <img src="images/humidity.png" alt="humidity icon" class="humidity-icon" /> Humidity :
+                        <span class="weather-info">
+                            57%
+                        </span>
+                        <br />
+
+                        <img src="images/wind.png" alt="wind icon" class="wind-icon" /> Wind :
+                        <span class="weather-info">
+                            4 mph
+                        </span>
+                    </p>
+                </div>
+
+                <div class="current-weather">
+                    <div>
+                        <img src="images/sun.png" alt="sunny icon" class="current-weather-icon" />
+                    </div>
+                    <div class="current-weather-condition">
+                        Clear
+                    </div>
+                </div>
+
             </div>
         </main>
 
