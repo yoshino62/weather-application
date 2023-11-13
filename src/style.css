@@ -123,6 +123,8 @@ main {
   color: #5e6363;
   font-size: 40px;
   font-weight: bold;
+  position: relative;
+  left: 16px;
 }
 
 footer {
