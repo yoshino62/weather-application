@@ -114,12 +114,13 @@ main {
 }
 
 .current-weather-icon {
-  width: 128px;
+  width: 130px;
+  height: 130px;
 }
 
 .current-weather-condition {
   color: #5e6363;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: bold;
 }
 
