@@ -51,19 +51,18 @@ main {
 .current-location-time {
   display: flex;
   justify-content: space-between;
-  margin-right: 200px;
+  margin-right: 50px;
 }
 
 .currrent-city {
   color: #3d4040;
   margin: 0;
-  font-size: 50px;
+  font-size: 38px;
   line-height: 45px;
 }
 
 .current-time {
   color: #5e6363;
-  margin-left: 30px;
   font-size: 23px;
   font-weight: 600;
   line-height: 45px;
