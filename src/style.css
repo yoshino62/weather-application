@@ -115,15 +115,12 @@ main {
 
 .current-weather-icon {
   width: 128px;
-  margin-right: 60px;
 }
 
 .current-weather-condition {
   color: #5e6363;
   font-size: 40px;
   font-weight: bold;
-  position: relative;
-  left: 16px;
 }
 
 footer {
