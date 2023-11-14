@@ -17,8 +17,9 @@
     <div class="container">
 
         <header>
-            <form class="search-form">
-                <input type="search" placeholder="Search for a city" class="search-form-bar" required />
+            <form class="search-form" id="search-form">
+                <input type="search" placeholder="Search for a city" class="search-form-bar" id="search-form-bar"
+                    required />
                 <input type="submit" value="Search" class="search-form-button" />
             </form>
         </header>
@@ -26,7 +27,8 @@
         <main>
 
             <h1 class="current-location-time">
-                <span class="currrent-city">Tokyo</span> <span class="current-time">12:29 | Sunday</span>
+                <span class="currrent-city" id="currrent-city">Tokyo</span> <span class="current-time">12:29 |
+                    Sunday</span>
             </h1>
 
             <div class="weather-data">
