@@ -113,6 +113,9 @@ main {
   width: 25px;
 }
 
+.current-weather {
+}
+
 .current-weather-icon {
   width: 130px;
   height: 130px;
