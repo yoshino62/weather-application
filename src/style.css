@@ -121,7 +121,7 @@ main {
 .current-weather-condition {
   color: #5e6363;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 footer {
