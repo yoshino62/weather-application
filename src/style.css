@@ -51,7 +51,6 @@ main {
 .current-location-time {
   display: flex;
   justify-content: space-between;
-  margin-right: 50px;
 }
 
 .currrent-city {
